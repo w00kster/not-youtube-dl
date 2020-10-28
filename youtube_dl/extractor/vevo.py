@@ -70,22 +70,6 @@ class VevoIE(VevoBaseIE):
         },
         'expected_warnings': ['Unable to download SMIL file', 'Unable to download info'],
     }, {
-        'note': 'Age-limited video',
-        'url': 'https://www.vevo.com/watch/justin-timberlake/tunnel-vision-explicit/USRV81300282',
-        'info_dict': {
-            'id': 'USRV81300282',
-            'ext': 'mp4',
-            'title': 'Justin Timberlake - Tunnel Vision (Explicit)',
-            'age_limit': 18,
-            'timestamp': 1372888800,
-            'upload_date': '20130703',
-            'uploader': 'Justin Timberlake',
-            'track': 'Tunnel Vision (Explicit)',
-            'artist': 'Justin Timberlake',
-            'genre': 'Pop',
-        },
-        'expected_warnings': ['Unable to download SMIL file', 'Unable to download info'],
-    }, {
         'note': 'No video_info',
         'url': 'http://www.vevo.com/watch/k-camp-1/Till-I-Die/USUV71503000',
         'md5': '8b83cc492d72fc9cf74a02acee7dc1b0',
